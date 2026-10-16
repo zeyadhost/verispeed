@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "verispeed-footprints") (type "KiCad") (uri "${KIPRJMOD}/../libraries/footprints.pretty") (options "") (descr "Verispeed custom footprints (SK6812MINI-E, XIAO RP2040, Hack Club logo)"))
+)

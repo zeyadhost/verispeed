@@ -1,0 +1,18 @@
+# KiCad
+*.lck
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.kicad_prl
+# KiCad autosave history
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
