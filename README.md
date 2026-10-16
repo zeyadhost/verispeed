@@ -6,7 +6,7 @@ and the Fusion 360 case.
 
 ## Overview
 
-| | |
+| Feature | Detail |
 |---|---|
 | **MCU** | Seeed Studio XIAO RP2040 |
 | **Keys** | 3 (MX-style switches) |
