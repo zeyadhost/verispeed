@@ -4558,8 +4558,8 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 57.5 43.5)
-		(end 76.5 100.9)
+		(start 56 43.5)
+		(end 78 100.9)
 		(stroke
 			(width 0.05)
 			(type default)
