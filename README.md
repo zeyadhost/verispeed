@@ -16,7 +16,7 @@ includes the KiCad PCB design, the Fusion 360 case, and the QMK firmware.
 
 ### Case (Fusion 360)
 
-![Verispeed case](images/case.png)
+![Verispeed case](images/case_new.png)
 
 ### PCB — front
 
