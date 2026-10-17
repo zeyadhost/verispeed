@@ -58,6 +58,10 @@ verispeed/
 └── images/
 ```
 
+The Cherry MX switch 3D model comes from
+[ConstantinoSchillebeeckx/cherry-mx-switch](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch)
+(MIT license).
+
 ## Bill of Materials
 
 | Qty | Part | Notes |
