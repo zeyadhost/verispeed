@@ -24,3 +24,16 @@ hi everyone! this is the last journal related to hackpad, as for the next journa
 ![PCB back](images/pcb_back.png)
 
 **Total time spent: 2.5 hours**
+
+# Drew power schematic
+
+hi everyone! this is the first journal of me starting with my NEW and UNIQUE changes for the hackpad (that probably wont even make it look like a hackpad anymore because i deleted everything). i asked my father today about how engineers go from "yo i wanna make x" to somehow getting the EXACT module names and know how to connect them he just told me they search, i didnt really understand so unfortunately i opened claude code and asked it to explain to me, what modules to find, and how to connect them. although claude gave me how to connect them, the ACTUAL things i learnt were the terms (schottky diode) and how to use kicad, like i just found out today that labeling wires are SHORTCUTS INSTEAD OF DRAWING A WIRE, like THATS THE MOST BIZARRE THING IVE EVER HEARD??? like I THOUGHT LABELS ARE LIKE COMMENTS IN CODING (but turns out that comments can run code now /j). i was really happy with todays process because i felt like an engineer (yes.) and im one step closer to shipping! as to what i did today, i drew the power block (and it passes ERC!). i added USB-C with a protection chip, a battery charger (with a led ofc) and a path so that i can use both usb or battery. here are some images while working:
+
+(image 1 and 2)
+
+i was also searching for the lcd screen i was going to use and i found this:
+(image 3)
+
+see you guys next time!
+
+**Total time spent: 2.5 hours**
