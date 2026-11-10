@@ -39,3 +39,18 @@ i was also searching for the lcd screen i was going to use and i found this:
 see you guys next time!
 
 **Total time spent: 2.5 hours**
+
+# Made the PCB and learnt about vias
+
+hi everyone! this is the journal where i finally made the PCB for verispeed (the new one, with the esp32, the screen, two knobs and 12 keys laid out like a piano). i drew every single wire by hand in kicad and it was VERY complex, like 12 keys, 12 diodes and SO many wires that all have to reach the right place without touching each other. the biggest thing i learnt was how to use a VIA, and its basically a BURROW for the wire (yes, like where a rabbit lives). the wire goes down into a hole on one side of the board, goes under everything else, and comes back out on the other side, so the lines dont overlap together. after the wires i added the ground fill, rounded the corners, made the screw holes and put the hack club flag, my signature and my github name on the silkscreen (the white print on the board). at the end i ran the checks and got ZERO errors, and i pushed everything to github. it was very complex but i felt really happy at the end, im so happy with the result! next time i will work on the firmware, so i will only use hackatime from now on. here are some images of the result:
+
+![Finished PCB](images/4/1.png)
+
+![PCB wires](images/4/2.png)
+
+i also put the hack club flag and my signature on the silkscreen, here is how they look up close:
+![Flag and signature](images/4/3.png)
+
+see you guys next time!
+
+**Total time spent: 3.5 hours**
