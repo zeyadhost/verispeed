@@ -1,12 +1,14 @@
 # Verispeed
 
-A MIDI controller with 12 keys, 2 knobs and a screen.
+A MIDI controller with 12 keys, 2 knobs and a screen. It works with music programs on a laptop.
 
 ![Verispeed, front of the board](images/4/1.png)
 
 Verispeed is one circuit board (PCB). It has no case. The 12 keys have the layout of one piano octave: 7 white keys and 5 black keys. The screen is in the center. There is one knob on each side of the screen.
 
-The board does not make sound. It sends MIDI notes to a computer, a phone or a synthesizer. The board has USB-C and Bluetooth LE to send the notes.
+The board has no speaker, so it does not make sound. It is a MIDI device. Connect it to a laptop with a USB-C cable. A music program on the laptop makes the sound. The program can be a DAW (digital audio workstation) or a software synthesizer.
+
+The board also has Bluetooth LE. You can use it with a phone or a tablet.
 
 Status: The design is finished and has no errors. The board is not built yet. The firmware is not written yet.
 
@@ -27,7 +29,7 @@ Status: The design is finished and has no errors. The board is not built yet. Th
 - Power source: When USB is connected, the P-MOSFET Q1 disconnects the battery. When USB is not connected, Q1 connects the battery.
 - Battery: The charger U3 charges the battery at 200 mA. The red LED D2 is on while the battery charges. The slide switch SW4 disconnects the battery from the board. The charger still works when SW4 is off.
 - Battery level: R6 and R7 divide the battery voltage by 2. GPIO1 reads the result. Multiply the value by 2 to get the battery voltage.
-- USB: U2 protects the USB data lines from static electricity. R1 and R2 tell a USB-C power source to give 5 V.
+- USB: U2 protects the USB data lines from static electricity. R1 and R2 tell a USB-C power source to give 5 V. The ESP32-S3 has native USB, so it can be a USB-MIDI device with no extra chip.
 - Keys: The 12 keys are in a matrix of 3 rows and 4 columns. The diode of each key points from the column to the row.
 - Screen: The screen connects to the header J4 and uses the default SPI pins. GPIO14 controls the backlight.
 - Firmware: To load new firmware, hold the BOOT button (SW2) and push the RESET button (SW1). The ESP32-S3 then waits for new firmware on USB. The header J3 has GND, TX and RX for a serial adapter.
