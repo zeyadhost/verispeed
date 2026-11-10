@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "verispeed-v2") (type "KiCad") (uri "${KIPRJMOD}/verispeed-v2.pretty") (options "") (descr "Verispeed v2 custom footprints: Waveshare 2inch LCD, Alps EC11E, GCT USB4085 fine pitch, G-Switch SK-12D02"))
+)
