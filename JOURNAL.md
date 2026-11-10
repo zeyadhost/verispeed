@@ -1,7 +1,7 @@
 ---
 title: "Verispeed"
 author: "Zeyad Bekhet"
-description: "A macropad that plays music"
+description: "A MIDI controller that works with music programs on a laptop"
 created_at: "2026-10-16"
 ---
 
