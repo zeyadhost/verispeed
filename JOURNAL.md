@@ -54,3 +54,15 @@ i also put the hack club flag and my signature on the silkscreen, here is how th
 see you guys next time!
 
 **Total time spent: 3.5 hours**
+
+# Started the firmware: keys and midi notes
+
+hi everyone! this is the first journal for the verispeed firmware, in C++ with platformio in vscode. getting the tools to build the first time took forever. i had to restart vscode and i wrote ARDUNIO instead of ARDUINO (yes.). the first build wanted to download 730 MB at 100 KB/s which is 2 HOURS (i asked claude to manually download it in pieces so that nothing corrupts), and a known bug in the esp32 toolkit needed ONE command to fix. and then my build said SUCCESS!
+
+![Successful build](images/5/1.png)
+
+then i wrote the code that reads the 12 keys. i learnt that 12 keys only need 7 wires in a matrix, with a diode on every key and a 5 ms debounce so bouncing contacts dont count twice. after that the keys send midi notes over usb, one piano octave from C (60) to B (71). my name has a space and that broke the usb name setting until i put single quotes around it. i cant test any of it on the real board yet, so next time i will make the two knobs work!
+
+see you guys next time!
+
+**Total time spent: 1 hour**
